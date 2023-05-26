@@ -99,8 +99,8 @@ class CartClient:
         return response
 
 if __name__ == "__main__":
-    cookies = {"WC_AUTHENTICATION_01edfb83-25dd-148a-bfa3-e73ccdf76df7": "MDFlZGZiODMtMjVkZC0xNDhhLWJmYTMtZTczY2NkZjc2ZGY3fGNv",
-"WC_USERACTIVITY_01edfb83-25dd-148a-bfa3-e73ccdf76df7": "MDFlZGZiODMtMjVkZC0xNDhhLWJmYTMtZTczY2NkZjc2ZGY3fGNvfHBhc3N3b3JkSW52YWxpZGF0aW9uRmxhZ3xhdHRlbXB0ZWRQYXNzd29yZFByb3RlY3RlZENvbW1hbmRzfGxvZ29uVGltZXxleHBpcnlUaW1lfGV4cGlyZWRVc2VySWR8cHJlRXhwaXJ5VVJMfGZvclVzZXJJZHxhY3RpdmVPcmdJZA==|F77xiPcA3X32JQddum+m8p+6vRtBlfi3Q7Was+TZ0csnCyas66ckMDdfieEgs2QtlDwQzSRaKA9SK6Q1EhQEL9mRBw2a4Wd6Jq105x2Y+QiVd8vKTVeTzJL63U9Sos239Iw+UP48lf9kxOcvq4KEavjeMqtceV6KY7sJDXy5vnB7JfaF9imIx+r/uujHSyDrMLrnx3Z/MobQHpVvgE2PH7XEVChOvEY16C0k9B3WFmdTXCW5h8u1Eg=="}
+    cookies = {"WC_AUTHENTICATION_01edfb83-25dd-148a-bfa3-e73ccdf76df7": "<value>",
+"WC_USERACTIVITY_01edfb83-25dd-148a-bfa3-e73ccdf76df7": "<value>"}
 
     cartClient = CartClient(cookies=cookies, env="qa-co-01")
     cart = cartClient.get_cart()
